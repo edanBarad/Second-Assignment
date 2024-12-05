@@ -1,54 +1,41 @@
 # Second-Assignment
 Ex1 Project
 Overview
-This project provides functionality for converting and validating numbers in different bases, ranging from base 2 to base 16. It includes methods for base conversion, checking number formats, and unit tests to ensure correctness.
+This project contains methods for converting and validating numbers in different bases, ranging from base 2 to base 16.
 
 Classes
-1. Ex1
-This class contains methods for number conversion, validation, and comparison.
+Ex1
+This class has methods to:
 
-Methods:
-public static int number2Int(String num): Converts a given string representation of a number in various bases to its decimal (int) representation.
+Convert a number string in various bases to a decimal (integer) (number2Int).
 
-public static boolean isNumber(String a): Checks if a given string is in a valid number format for bases ranging from 2 to 16.
+Check if a string is a valid number in various bases (isNumber).
 
-public static int getBase(String a): Retrieves the base of the number represented in the string.
+Get the base of a number string (getBase).
 
-public static String int2Number(int num, int base): Converts a given decimal number to its string representation in a specified base.
+Convert a decimal number to a string in a specified base (int2Number).
 
-public static boolean equals(String n1, String n2): Compares two numbers (given as strings) and checks if they have the same value.
+Compare two number strings to see if they have the same value (equals).
 
-public static int maxIndex(String[] arr): Finds the index of the largest number (in value) within an array of number strings.
+Find the index of the largest number in an array (maxIndex).
 
-2. Ex1Main
-This class serves as the main entry point for user interaction. It uses the Scanner class to take user input, perform operations using the methods in Ex1, and display results.
+Ex1Main
+This class interacts with the user:
 
-Features:
-Prompts the user to enter numbers and a base.
+Takes user input for numbers and bases.
 
-Validates the input format.
+Validates the input.
 
 Converts and displays numbers in various bases.
 
-Performs addition and multiplication of the entered numbers and displays the results in the specified base.
+Performs addition and multiplication of numbers.
 
-Determines the maximum number in a given array of number strings.
+Finds the maximum number in an array.
 
-3. Ex1Test
-This class contains JUnit tests for the methods in the Ex1 class to ensure their correctness.
+Ex1Test
+This class contains tests to ensure the Ex1 methods work correctly.
 
-Test Methods:
-computeNumberTest(): Tests the conversion between different bases.
-
-isBasisNumberTest(): Tests the validation of number formats in various bases.
-
-int2NumberTest(): Tests the conversion of decimal numbers to their string representation in different bases.
-
-maxIndexTest(): Tests the functionality to find the maximum number in an array.
-
-getBaseTest(): Tests the retrieval of the base from a number string.
-
-Usage
+How to Run
 Clone the Repository:
 
 sh
@@ -59,14 +46,8 @@ Compile and Run the Main Program:
 sh
 javac Ex1/*.java
 java Ex1.Ex1Main
-Run the JUnit Tests: Make sure you have JUnit 5 set up in your development environment.
+Run the Tests:
 
 sh
 javac -cp .:junit-platform-console-standalone-1.8.1.jar Ex1/*.java
 java -jar junit-platform-console-standalone-1.8.1.jar --class-path . --scan-class-path
-Notes
-Ensure your development environment is set up for Java with JDK installed.
-
-Handle invalid inputs gracefully to prevent runtime errors.
-
-Extend the test cases in Ex1Test to cover more scenarios and edge cases.
