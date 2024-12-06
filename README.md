@@ -3,32 +3,35 @@ Ex1 Project
 Overview
 This project contains methods for converting and validating numbers in different bases, ranging from base 2 to base 16.
 
-Classes
-Ex1
+Classes:
+
+Ex1:
+
 This class has methods to:
 
-Convert a number string in various bases to a decimal (integer) (number2Int).
+number2Int: Convert a number string in different bases to a decimal (integer).
 
-Check if a string is a valid number in various bases (isNumber).
+isNumber: Check if a string is a valid number in various bases.
 
-Get the base of a number string (getBase).
+getBase: Get the base of a number string.
 
-Convert a decimal number to a string in a specified base (int2Number).
+int2Number: Convert a decimal number to a string in any given base.
 
-Compare two number strings to see if they have the same value (equals).
+equals: Compare two number strings to see if they have the same value.
 
-Find the index of the largest number in an array (maxIndex).
+maxIndex: Find the index of the largest number in an array.
 
-Ex1Main
+Ex1Main:
+
 This class interacts with the user:
 
-Takes user input for numbers and bases.
+Takes user input for two numbers and bases.
 
 Validates the input.
 
 Converts and displays numbers in various bases.
 
-Performs addition and multiplication of numbers.
+Performs addition and multiplication of the two numbers.
 
 Finds the maximum number in an array.
 
