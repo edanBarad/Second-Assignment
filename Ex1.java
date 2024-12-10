@@ -38,7 +38,7 @@ public class Ex1 {
             if (a.matches("\\d+")) return true; //But if string contains digits so its ok
             else return false;
         }
-        //We have nothing before 'b' or nothing after 'b' or more than one character after b
+        //We have nothing before 'b' or nothing after 'b' or more than one character after 'b'
         else if((a.indexOf('b') == 0) || (a.indexOf('b') == a.length()-1) || (a.indexOf('b') != a.length()-2)){
             return false;
         }
