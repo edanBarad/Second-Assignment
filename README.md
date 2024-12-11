@@ -37,17 +37,6 @@ Finds the maximum number in an array.
 
 Ex1Test
 This class contains tests to ensure the Ex1 methods work correctly.
-
-How to Run
-Clone the Repository:
-
-sh
-git clone <repository-url>
-cd <repository-directory>
-Compile and Run the Main Program:
-
-sh
-javac Ex1/*.java
 java Ex1.Ex1Main
 Run the Tests:
 
