@@ -38,8 +38,3 @@ Finds the maximum number in an array.
 Ex1Test
 This class contains tests to ensure the Ex1 methods work correctly.
 java Ex1.Ex1Main
-Run the Tests:
-
-sh
-javac -cp .:junit-platform-console-standalone-1.8.1.jar Ex1/*.java
-java -jar junit-platform-console-standalone-1.8.1.jar --class-path . --scan-class-path
