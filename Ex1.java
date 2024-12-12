@@ -95,6 +95,7 @@ public class Ex1 {
         if (num < 0 || (base < 2 || base > 16)){    //If invalid input
             return "";
         }
+        else if (num == 0) ans+= "0";
         while (num > 0){
             if (num%base > 9){
                 int remainder = num%base;
